@@ -16,6 +16,10 @@ an update-log issue you can hold me to):
 Also: [agentsmd](https://github.com/daichunghy/agentsmd) — one source of truth
 for AI agent instructions, linted, wired, scored.
 
+Experiments shelf (public, slower cadence): [Flecto](https://github.com/daichunghy/Flecto)
+— a semantic config watcher; [desklore](https://github.com/daichunghy/desklore)
+— computer history for macOS, local by default.
+
 **How the work happens:** I write the requirements and the boundaries, AI
 coding agents write most of the code, and deterministic tests decide what is
 true. The honest version, including the failure modes I watch for, is in
