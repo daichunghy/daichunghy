@@ -1,34 +1,39 @@
-### Hi, I'm Đái Chung Hy 👋
+### Đái Chung Hy
 
-Open-source maintainer from Vietnam. I build deterministic contract layers —
-checks that coding agents can call before a human spends attention.
+Open-source maintainer in Vietnam. I build deterministic contract layers for
+coding agents and applied research workflows.
 
-**The four active projects** (all public, all updated weekly — each repo pins
-an update-log issue you can hold me to):
+The common rule is simple: make the boundary explicit, make the output
+reproducible, and leave claims about real users to evidence.
 
-| Repository | The question it answers |
-| --- | --- |
-| [PatchGate](https://github.com/daichunghy/patchgate) | Is this pull request worth review time before I open the diff? |
-| [contribkit](https://github.com/daichunghy/contribkit) | Is the repository's contribution contract satisfied before the PR is opened? |
-| [OpenSheet-AI](https://github.com/daichunghy/opensheet-ai) | Is this spreadsheet operation safe before it reaches a workbook? |
-| [quant-research](https://github.com/daichunghy/quant-research) | Is this survey instrument consistent before anyone opens SPSS? |
+## Current projects
 
-Also: [agentsmd](https://github.com/daichunghy/agentsmd) — one source of truth
-for AI agent instructions, linted, wired, scored.
+| Project | What it checks | Public starting point |
+| --- | --- | --- |
+| [PatchGate](https://github.com/daichunghy/patchgate) | Whether a GitHub pull request has the policy, evidence, ownership and human boundaries needed before review | [beta releases](https://github.com/daichunghy/patchgate/releases) · [CI](https://github.com/daichunghy/patchgate/actions) |
+| [contribkit](https://github.com/daichunghy/contribkit) | Whether a repository contribution contract is satisfied before a pull request is opened | [npm package](https://www.npmjs.com/package/contribkit) · [adapter queue](https://github.com/daichunghy/contribkit/issues?q=is%3Aissue+label%3Aadapter) |
+| [OpenSheet-AI](https://github.com/daichunghy/opensheet-ai) | Whether a typed spreadsheet operation passes policy and produces a reviewable receipt before a workbook is changed | [npm package](https://www.npmjs.com/package/opensheet-ai) · [quickstart](https://github.com/daichunghy/opensheet-ai/blob/main/docs/QUICKSTART.md) |
+| [quant-research](https://github.com/daichunghy/quant-research) | Whether instruments, recodes, coverage and measurement specifications are internally consistent before analysis | [npm package](https://www.npmjs.com/package/%40agentbiz%2Fquant-research) · [reproducibility guide](https://github.com/daichunghy/quant-research/blob/main/docs/REPRODUCIBILITY.md) |
 
-Experiments shelf (public, slower cadence): [Flecto](https://github.com/daichunghy/Flecto)
-— a semantic config watcher; [desklore](https://github.com/daichunghy/desklore)
-— computer history for macOS, local by default.
+I also maintain [agentsmd](https://github.com/daichunghy/agentsmd), a project
+for linting and synchronising agent-instruction files, and keep slower public
+experiments in [Flecto](https://github.com/daichunghy/Flecto) and
+[desklore](https://github.com/daichunghy/desklore).
 
-**How the work happens:** I write the requirements and the boundaries, AI
-coding agents write most of the code, and deterministic tests decide what is
-true. The honest version, including the failure modes I watch for, is in
+## How I work
+
+I define the product boundary and acceptance criteria, then use coding agents
+for implementation. Tests, clean-room checks, release metadata and public CI
+decide what can be claimed. Every project documents its non-goals alongside
+its capabilities.
+
+The longer account of the workflow is in
 [How this repo is built](https://github.com/daichunghy/patchgate/discussions/50).
 
-**House rules for every repo here:** status lines reference things you can
-check (tags, CI runs, receipts), never adjectives; every project documents
-what it does **not** do in the same breath as what it does; no invented
-adoption, ever.
+These projects are public pre-release work. A source tag, an npm publication,
+a local fixture, a maintainer-reviewed PR and an external pilot are different
+evidence levels; the repositories keep those states separate.
 
-⭐ If one of these caught a real mistake for you, star that repository. It is
-the only growth signal I track.
+For a real failure or confusing first run, open an issue in the relevant
+repository with the command, runtime version and observed output. That is more
+useful than a generic endorsement.
