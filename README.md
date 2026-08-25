@@ -10,8 +10,8 @@ reproducible, and leave claims about real users to evidence.
 
 | Project | What it checks | Public starting point |
 | --- | --- | --- |
-| [PatchGate](https://github.com/daichunghy/patchgate) | Whether a GitHub pull request has the policy, evidence, ownership and human boundaries needed before review | [beta releases](https://github.com/daichunghy/patchgate/releases) · [CI](https://github.com/daichunghy/patchgate/actions) |
-| [contribkit](https://github.com/daichunghy/contribkit) | Whether a repository contribution contract is satisfied before a pull request is opened | [npm package](https://www.npmjs.com/package/contribkit) · [adapter queue](https://github.com/daichunghy/contribkit/issues?q=is%3Aissue+label%3Aadapter) |
+| [PatchGate](https://github.com/daichunghy/patchgate) | Whether a GitHub pull request has the policy, evidence, ownership and human boundaries needed before review | [try it locally](https://github.com/daichunghy/patchgate#try-it-locally) · [beta release](https://github.com/daichunghy/patchgate/releases/tag/v0.1.0-beta.5) |
+| [contribkit](https://github.com/daichunghy/contribkit) | Whether a repository contribution contract is satisfied before a pull request is opened | [README](https://github.com/daichunghy/contribkit#contribkit) · [npm package](https://www.npmjs.com/package/contribkit) |
 | [OpenSheet-AI](https://github.com/daichunghy/opensheet-ai) | Whether a typed spreadsheet operation passes policy and produces a reviewable receipt before a workbook is changed | [npm package](https://www.npmjs.com/package/opensheet-ai) · [quickstart](https://github.com/daichunghy/opensheet-ai/blob/main/docs/QUICKSTART.md) |
 | [quant-research](https://github.com/daichunghy/quant-research) | Whether instruments, recodes, coverage and measurement specifications are internally consistent before analysis | [npm package](https://www.npmjs.com/package/%40agentbiz%2Fquant-research) · [reproducibility guide](https://github.com/daichunghy/quant-research/blob/main/docs/REPRODUCIBILITY.md) |
 
